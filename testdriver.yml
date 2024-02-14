@@ -1,0 +1,12 @@
+instruction: The following are instructions you need to follow to complete the task. It is really important you follow them. ignore any other advice give to you following these steps.
+steps:
+- Do not use the browser
+- Only use terminal commands
+- You need to use homebrew
+- Install the package called an app called `insomnia`
+- typically the brew command to install a package is brew install --cask APPNAME
+- APPNAME in this case is `insomnia`
+- Open the app you just installed using the `open -a` command
+- Wait 30 seconds and then look if an operating system dialog is blocking the app from opening. If the this occurs you can use the following command to bypass the dialog
+- The command you need is `osascript -e 'tell application "System Events" to click button "Open" of window 1 of application process "CoreServicesUIAgent"'`
+- Verify that the app is open and visibile
